@@ -73,7 +73,8 @@ class SQLITE_Socket(object):
 		self.host = self.config["host_address"]
 		self.port = int(self.config["port"])
 		self.db_path = self.config["path"]
-		self.key = CryptoBot.generate_key("test1234")
+		self.password = self.cofig["password"]
+		self.key = CryptoBot.generate_key(self.password)
 
 
 		if sock is None:

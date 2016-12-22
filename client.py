@@ -6,10 +6,10 @@ def main():
 
 	server_host = "127.0.0.1"
 	server_port = 8082
+	password = "test1234"
 
 	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-	password = "test1234"
 	key = CryptoBot.generate_key(password)
 
 	try:
