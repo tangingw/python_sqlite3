@@ -37,8 +37,6 @@ def main():
 
 				data = raw_input("Command: ")
 
-	
-
 		s.close()
 
 	except socket.error:
