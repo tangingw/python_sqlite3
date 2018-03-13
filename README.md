@@ -19,3 +19,10 @@ Client side:
      Command: select * from `Table`;
      Received: Result
      ```
+### Features added:
+  * Multithreading features - manage to support more than 2 users
+
+### Problem to be solved
+  * Race condition between 2 users
+    Solution: Consumer and Producer model (to be appeared in the next rolling)
+
