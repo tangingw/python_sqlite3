@@ -26,3 +26,5 @@ Client side:
   * Race condition between 2 users
     Solution: Consumer and Producer model (to be appeared in the next rolling)
 
+### Thanks to
+Arbel Israeli in the [stackoverflow](https://stackoverflow.com/questions/17453212/multi-threaded-tcp-server-in-python)
