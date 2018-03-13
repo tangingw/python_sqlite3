@@ -28,12 +28,12 @@ def main():
 
 			if not data_recv:
 			
-				print "Server closed!"
+				print("Server closed!")
 				break
 		
 			else:
 
-				print "Received: %s" % data_recv
+				print("Received: %s" % data_recv)
 
 				data = raw_input("Command: ")
 
@@ -41,7 +41,7 @@ def main():
 
 	except socket.error:
 
-		print "Server %s:%d cannot be reached!" % (server_host, server_port)
+		print("Server %s:%d cannot be reached!" % (server_host, server_port))
 
 
 if __name__ == '__main__':
